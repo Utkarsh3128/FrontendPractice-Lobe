@@ -2,6 +2,10 @@
 
 Hello Everyone, I have started this project to master Web Development and improve my skills.
 
+### Desktop View
+
+![](images/desktop_view.png)
+
 ### Live Site
 https://www.lobe.ai/tour
 
