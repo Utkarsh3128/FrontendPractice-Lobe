@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: LabGrotesque, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.head {
+    padding: 25px 5.3%;
+    height: 80px;
+    position: sticky;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    color: #767676;
+    list-style: none;
+    margin: 5px 24px;
+    font-size: 18px;
+    font-weight: 300;
+    transform: scale(1);
+    transition-property: cursor, box-shadow, transform;
+    transition-duration: 0.6s;
+}
+
+/* nav ul li:hover {
+    cursor: pointer;
+    box-shadow: 18px 18px 22px #c5c5c5,
+        -18px -18px 22px #fbfbfb;
+    ;
+    transform: scale(1.2);
+} */
+
+.button a {
+    border: 1px solid #04ddb2;
+    background-color: #04ddb2;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 24px;
+    width: 128px;
+    height: 45px;
+    font-weight: 700;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31vh;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.paragraph h1 {
+    max-width: 400px;
+    margin: 70px 0px 15px 0px;
+    font-size: 60px;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.05;
+}
+
+.green {
+    color: #04ddb2;
+}
+
+.para-text {
+    text-align: center;
+    max-width: 600px;
+    font-size: 27px;
+    font-weight: 100;
+    line-height: 1.45;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    transition: .3s ease-in-out;
+}
+
+.image2{
+    transform: scale(1);
+    transition-property: cursor, box-shadow, transform;
+    transition-duration: 0.6s;
+}
+
+.image2:hover {
+    cursor: pointer;
+    transform: scale(1);
+    /* animation: forwards; */
+    transition: ease-in;
+    /* transition-duration: infinite; */
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 18px 18px 22px #c5c5c5,
+        -18px -18px 22px #fbfbfb;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.image img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.train {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 50px;
+}
+
+
+
+.paragraph2 {
+    text-align: center;
+    max-width: 500px;
+}
+
+.heading2 {
+    font-size: 60px;
+    line-height: 1.05;
+    font-weight: 700;
+    color: #333;
+}
+
+.download-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: LabGrotesque, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid #04ddb2;
+    width: 170px;
+    height: 44px;
+    border-radius: 32px;
+    background-color: #04ddb2;
+    transition: .4s ease-out;
+    box-shadow: 0 10px 20px -8px transparent;
+}
+
+.download:hover {
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    padding: 0px 64px 64px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    border-top: .5px solid rgba(0, 0, 0, .2);
+    flex: 1 1;
+    max-width: 1312px;
+    padding: 50px 110px;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.footer-icon {
+    margin: 27px;
+}
+
+.footer-icon img {
+    height: 20px;
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 27px;
+}
+
+.footer-text {
+    margin: 27px;
+    font-size: 20px;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.footer-link {
+    margin: 27px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.col {
+    flex-grow: 1;
+}
+
+.col-icon {
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    background-color: #04ddb2;
+    padding: 5px;
+    margin: 27px 5px 0px 5px;
+    border-radius: 50%;
+}
+
+.last-image{
+    background-color: #04ddb2;
+}
