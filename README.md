@@ -1,6 +1,8 @@
 # Lobe Tour
 
-Hello Everyone, I have started this project to master Web Development and improve my skills.
+Hello Everyone, This is a practice project and all materials owned by companies and individuals whose website is featured on https://www.frontendpractice.com/ are meant for practice purposes only.
+
+I have started this project to master Web Development and improve my skills.
 
 ### Desktop View
 
